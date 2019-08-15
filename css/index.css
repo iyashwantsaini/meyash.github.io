@@ -1,0 +1,131 @@
+.intro{
+    font-size: 30px;
+}
+header{
+    margin: 20px;  
+    padding: 20px;
+}
+
+.fa-hand-peace{
+    font-size: 50px;
+}
+.fa-sun{
+    margin-right:8px; 
+}
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: ease-in-out 200ms !important;
+  transition-delay: 0 !important;
+  }
+#hello{
+    width: 50px;
+}
+#vscode{
+    width: 30px;
+}
+#python{
+    width: 30px;
+}
+#heart{
+    width: 30px;
+}
+#person{
+    width: 30px;
+}
+
+/* nightMode */
+
+html {
+  background: var(--backg);
+  --btn: #2ab1ce;
+  --backg: #fff;
+  --colorx: #232323;
+ } 
+html[data-theme='dartheme'] {
+  background: var(--backg);
+  --btn: #ea4b3c;
+  --backg: #232323;
+  --colorx: #fff;
+} 
+input[type=checkbox] {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+label {
+    margin: 0 auto;
+    justify-content: right;
+    align-items: right;
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 45px;
+    height: 30px;
+    background: var(--btn);
+}   
+label:after {
+    border-radius: 50%;
+    position: absolute;
+    content: '';
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    left: 4px;
+    transition: ease-in-out 200ms;
+}
+input:checked + label {
+    background: #ea4b3c;
+}   
+input:checked + label:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+}   
+html.transition,
+  html.transition *,
+  html.transition *:before,
+  html.transition *:after {
+    transition: ease-in-out 200ms !important;
+    transition-delay: 0 !important;
+}
+
+.elem{
+    text-align: center;
+}
+hr{
+    border: 1px solid rebeccapurple;
+}
+
+.flip {
+    margin: 0 auto;
+}
+.fontdata{
+    font-size: 1rem;
+}
+
+body{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+.headings{
+    color :#2ab1ce;
+    font-size: 25px;
+}
+.headnight{
+    color :#ea4b3c;
+    font-size: 25px;
+}
+.starthello{
+    font-size: 30px;
+}
+.fa-code {
+    font-size: 60px;
+}
+.contacthead{
+    font-size: 20px;
+}
+.small{
+    font-size: 10px;
+}
