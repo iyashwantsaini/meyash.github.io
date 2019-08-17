@@ -107,10 +107,6 @@ hr{
 }
 
 
-.headings{
-    color :#2ab1ce;
-    font-size: 30px;
-}
 .headnight{
     color :#ea4b3c;
     font-size: 25px;
@@ -140,3 +136,8 @@ body{
 /* * {
     box-sizing: border-box;
   } */
+
+.headings{
+    color :#2ab1ce;
+    font-size: 30px;
+}
