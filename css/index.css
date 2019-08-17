@@ -103,7 +103,7 @@ hr{
     margin: 0 auto;
 }
 .fontdata{
-    font-size: 17px;
+    font-size: 20px;
 }
 
 
@@ -119,9 +119,7 @@ hr{
     font-size: 30px;
     font-family: 'Acme', sans-serif;
 }
-.fa-code {
-    font-size: 60px;
-}
+
 .contacthead{
     font-size: 20px;
 }
@@ -140,4 +138,7 @@ body{
 .headings{
     color :#2ab1ce;
     font-size: 30px;
+}
+.fa-code {
+    font-size: 60px;
 }
