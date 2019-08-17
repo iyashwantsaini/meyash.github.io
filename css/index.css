@@ -103,12 +103,10 @@ hr{
     margin: 0 auto;
 }
 .fontdata{
-    font-size: 1rem;
+    font-size: 17px;
 }
 
-body{
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-}
+
 .headings{
     color :#2ab1ce;
     font-size: 25px;
@@ -118,7 +116,12 @@ body{
     font-size: 25px;
 }
 .starthello{
+    font-size: 50px;
+    font-family: 'Acme', sans-serif;
+}
+.name{
     font-size: 30px;
+    font-family: 'Acme', sans-serif;
 }
 .fa-code {
     font-size: 60px;
@@ -129,3 +132,11 @@ body{
 .small{
     font-size: 10px;
 }
+body{
+   /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  */
+   font-family: 'Lexend Deca', sans-serif;
+}
+
+/* * {
+    box-sizing: border-box;
+  } */
