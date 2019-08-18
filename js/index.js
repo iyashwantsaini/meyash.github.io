@@ -37,9 +37,9 @@ for(let i=0;i<headings.length;i++){
                 document.documentElement.classList.remove('transition');
             }, 100)
         }
-        $(function(){
-            $(".flip").flip({
-                trigger: 'click',
-                axis: 'x'
-            });
-        });
+        // $(function(){
+        //     $(".flip").flip({
+        //         trigger: 'click',
+        //         axis: 'x'
+        //     });
+        // });
