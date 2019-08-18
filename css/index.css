@@ -134,16 +134,10 @@ hr{
     font-size: 10px;
 }
 body{
-   /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  */
    font-family: 'Lexend Deca', sans-serif;
-   /* background-color:rgb(12, 5, 34); */
-   /* color: white; */
 }
 
-/* * {
-    box-sizing: border-box;
-  } */
-  .button {
+.button {
     border: none;
     padding: 3px 7px;
     text-align: center;
@@ -155,13 +149,13 @@ body{
     transition-duration: 0.4s;
     cursor: pointer;
   }
-  .button3 {
+.button3 {
     background-color: rgb(12, 5,34); 
     color: white;
     border: 2px solid #f44336;
   }
-  
-  .button3:hover {
+/*   
+.button3:hover {
     background-color: #f44336;
     color: white;
-  }
+  } */
